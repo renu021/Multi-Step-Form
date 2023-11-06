@@ -1,0 +1,103 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@1&family=Montserrat:ital,wght@1,300&family=Mooli&family=Nunito:wght@300&family=Outfit:wght@300;400;700;800&family=PT+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,600;1,700&family=Roboto+Condensed:ital,wght@0,400;1,300;1,400&family=Roboto+Flex:opsz@8..144&family=Roboto:ital,wght@0,500;1,300&display=swap');
+
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  font-family: 'Roboto Flex', sans-serif;
+  color: rgba(0, 0, 0, 0.75);
+  background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/3308.jpg');
+  /* background-image: url("https://ebizfiling.com/wp-content/uploads/2022/03/COMPANY-REGISTRATION-PROCESS-IN-INDIA-1.png");*/
+  background-size: cover; 
+}
+
+input{
+  width: 14rem;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: left;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
+  border-style: double;
+  
+}
+
+
+label{
+  font-size: 20px;
+  font-weight: 100;
+}
+
+
+
+.form{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.form-container{
+  width: 400px;
+  height: 450px;
+  background-color: #fffafa99;
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.55);
+}
+
+.form-container .form-footer button{
+    padding: 5px;
+    width: 5rem;
+    border-radius: 4px;
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 520;
+    background-color:  #26a7de;
+    color: white;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.form-container .form-footer button:hover{
+  background-color: #3b5998;
+}
+
+.form-header{
+  margin-bottom: 15px;
+}
+
+.progress-bar{
+  width: 400px;
+  border: 2px solid rgb(174, 167, 167);
+  height: 10px;
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+
+.progress-bar div{
+  width: 33.3%;
+  height: 100%;
+  background-color: green;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.55);
+}
+
+.form-container .signup-container div{
+  margin: 15px 0;
+}
+
+.form-container .personalInfo div{
+  margin: 15px 0;
+}
+
+.form-container .address-container div{
+  margin: 15px 0;
+}
+
